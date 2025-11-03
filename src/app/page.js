@@ -6,6 +6,8 @@ export default function Home() {
       <div className="text-2xl font-bold">Welcome!</div>
       <div>If you see this, you have successfully started running the template application!</div>
       <div>However, there is definitely more work to be done to turn this into a real weather app. </div>
+
+      <div>Now that you can see this, you should have a look at the Readme.md files in src/lib and src/components</div>
     </div>
   );
 }
