@@ -1,7 +1,8 @@
 export const defaultCoords = {
-  // London, UK
-  latitude: 51.5072,
-  longitude: -0.1276,
+  // Singapore
+  // Latitude and longitude for Singapore (approximate)
+  latitude: 1.3521,
+  longitude: 103.8198,
 };
 
 // Fetch a single day's forecast by day number (0 = today, 1 = tomorrow, ...)
