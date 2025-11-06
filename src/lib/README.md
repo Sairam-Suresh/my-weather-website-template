@@ -9,8 +9,10 @@ import { defaultCoords, dailyForecast } from "@/lib/openMeteo";
 
 Then, you can use it as follows:
 ```js
-const coords = { latitude: 40.7128, longitude: -74.0060 }; // New York
-const forecast = await dailyForecast(dayNumber, coords);
+// The default coordinates are for Singapore.
+// However, if you want to specify a different location, you can provide your own coordinates,
+// By replacing defaultCoords with your own object like { latitude: XX.XXXX, longitude: YY.YYYY }
+const forecast = await dailyForecast(dayNumber, defaultCoords);
 ```
 
-Where you can omit the `coords` parameter to use the default coordinates (London, UK).
+Where you can omit the `coords` parameter to use the default coordinates for Singapore.
